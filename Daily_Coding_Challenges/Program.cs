@@ -1,5 +1,6 @@
 ﻿using System;
 using Coding_Challenges;
+using Daily_Coding_Challenges.UI;
 
 namespace Daily_Coding_Challenges
 {
@@ -12,8 +13,9 @@ namespace Daily_Coding_Challenges
             int[] twoSumArr = new int[] { 2, 7, 11, 15 };
             twoSum.TwoSum(twoSumArr, 9);
 
+            MainMenu menu = new MainMenu();
+            menu.MainMenuDisplay();
 
-            Console.WriteLine("Hello World!");
         }
     }
 }
